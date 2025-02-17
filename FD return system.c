@@ -25,7 +25,7 @@ if (m<=600000)
     printf("                   tax amount :%d\n",m*0,&tax);
     printf("Total ammount You will Recive :%d\n",m+a-tax);
    }
-   else if (600000<m<=1200000)
+   else if (m > 600000 && m <= 1200000)
    {
     printf ("                       Tax : 10%% \n");
     printf("                   tax amount :%d \n",(m*10)/100,&tax);
